@@ -7,7 +7,7 @@ export default function Home() {
         <title>next web page</title>
       </Head>
       <div>
-        body
+        body 입니다
       </div>
     </div>
   )
