@@ -1,26 +1,68 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+*{ margin:0;padding:0;border:0;box-sizing:border-box}
+body{font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;color:#333;font-size:14px;font-weight:400;letter-spacing:-0.05em}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-o-osx-font-smoothing:grayscale;-ms-osx-font-smoothing:grayscale;font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-o-text-size-adjust:100%;text-size-adjust:100%;}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main{display:block}
+div, p, ul, ol, address, h1, h2, h3, h4, h5, h6, label{margin:0; padding:0}
+hr, table caption, legend, .blind{font-size:0;position:absolute;top:-999999px;visibility:hidden;white-space:nowrap}
+table{border-collapse:collapse;border-spacing:0;border:0}
+img, fieldset, button, input{border:0;vertical-align:middle}
+img{max-width:100%}
+ul, ol, li{list-style:none}
+em, address{font-style:normal}
+label, button{cursor:pointer; font-weight:normal}
+a, a:hover, a:active, a:focus{text-decoration:none; color:inherit}
+button {vertical-align:top} 
+button::-moz-focus-inner{padding:0;border:0}
+input, textarea{appearance:none;vertical-align:middle;color:#777;border:1px solid #e5e5e5;font-size:100%;font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
+textarea{resize:none;width:100%;padding:10px 15px;outline:0}
+textarea::placeholder{font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
+
+.header {
+  width: 100%;
+  height:62px;
+  background-color: #101820FF;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.header > .nav-wrapper {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-* {
-  box-sizing: border-box;
+.header > .nav-wrapper > ul {
+  display:flex;
+  align-items: center;
+  gap:0 20px;
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.header > .nav-wrapper > ul > li {
+  height: 100%;
+}
+.header > .nav-wrapper > ul > li > a {
+  color: #fff;
+  font-size: 20px;
+  display:flex;
+  align-items: center;
+  padding:0 20px;
+  width:100%;
+  height:100%;
+}
+.header > .nav-wrapper > ul > li > a:hover,
+.header > .nav-wrapper > ul > li.active > a {
+  color: #FEE715FF;
+  font-weight: 500; 
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding: 40px 0;
 }
