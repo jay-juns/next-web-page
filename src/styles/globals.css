@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'NotoSansKR-Medium';
+  src: url('./fonts/NotoSansKR-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{ margin:0;padding:0;border:0;box-sizing:border-box}
-body{font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;color:#333;font-size:14px;font-weight:400;letter-spacing:-0.05em}
+body{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;color:#333;font-size:14px;font-weight:400;letter-spacing:-0.05em}
 body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-o-osx-font-smoothing:grayscale;-ms-osx-font-smoothing:grayscale;font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-o-text-size-adjust:100%;text-size-adjust:100%;}
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main{display:block}
 div, p, ul, ol, address, h1, h2, h3, h4, h5, h6, label{margin:0; padding:0}
@@ -13,9 +20,9 @@ label, button{cursor:pointer; font-weight:normal}
 a, a:hover, a:active, a:focus{text-decoration:none; color:inherit}
 button {vertical-align:top} 
 button::-moz-focus-inner{padding:0;border:0}
-input, textarea{appearance:none;vertical-align:middle;color:#777;border:1px solid #e5e5e5;font-size:100%;font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
+input, textarea{appearance:none;vertical-align:middle;color:#777;border:1px solid #e5e5e5;font-size:100%;font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
 textarea{resize:none;width:100%;padding:10px 15px;outline:0}
-textarea::placeholder{font-family:"Noto Sans KR", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
+textarea::placeholder{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Gothic Neo", "애플고딕", "돋움", sans-serif;}
 
 .header {
   width: 100%;
