@@ -13,10 +13,10 @@ const Header = () => {
                         <Link href="/">Home</Link>
                     </li>
                     <li className={router.pathname == "/about" ? "active" : ""}>
-                        <Link href="/about">about</Link>
+                        <Link href="/about">About</Link>
                     </li>
                     <li className={router.pathname == "/contact" ? "active" : ""}>
-                        <Link href="/contact">contact us</Link>
+                        <Link href="/contact">Contact us</Link>
                     </li>
                 </ul>
                 <ul className='left-nav'>
