@@ -1,14 +1,14 @@
 import Head from "next/head";
 
-const Signup = () => {
+const Login = () => {
     return (
         <div>
             <Head>
-                <title>next web page - Sign up</title>
+                <title>next web page - Log in</title>
             </Head>
-            Its Sign up page
+            Its Log in page
         </div>
     )
 };
 
-export default Signup;
+export default Login;

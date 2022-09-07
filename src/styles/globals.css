@@ -32,7 +32,7 @@ textarea::placeholder{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Go
 
 .header > .nav-wrapper {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1296px;
   height: 100%;
   margin: 0 auto;
   display: flex;
@@ -46,6 +46,9 @@ textarea::placeholder{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Go
   gap:0 20px;
   width: 100%;
   height: 100%;
+}
+.header > .nav-wrapper > ul.left-nav {
+  justify-content: flex-end;
 }
 
 .header > .nav-wrapper > ul > li {
@@ -68,7 +71,7 @@ textarea::placeholder{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Go
 
 .wrapper {
   width: 100%;
-  max-width: 1280px;
+  max-width: 1296px;
   margin: 0 auto;
   min-height: 500px;
   padding: 40px 0;
