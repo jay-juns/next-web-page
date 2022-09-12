@@ -4,7 +4,7 @@ const Login = () => {
     return (
         <div>
             <Head>
-                <title>next web page - Log in</title>
+                <title>Visecare - Log in</title>
             </Head>
             Its Log in page
         </div>

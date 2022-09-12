@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>next web page</title>
+        <title>Visecare</title>
       </Head>
       <div>
         body 입니다

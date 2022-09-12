@@ -56,7 +56,7 @@ textarea::placeholder{font-family:"NotoSansKR-Medium", "본고딕", "Apple SD Go
 }
 .header > .nav-wrapper > ul > li > a {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   display:flex;
   align-items: center;
   padding:0 20px;

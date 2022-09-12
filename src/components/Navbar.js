@@ -12,16 +12,19 @@ const Header = () => {
                     <li className={router.pathname == "/" ? "active" : ""}>
                         <Link href="/">Home</Link>
                     </li>
-                    <li className={router.pathname == "/about" ? "active" : ""}>
-                        <Link href="/about">About</Link>
+                    <li className={router.pathname == "/serve" ? "active" : ""}>
+                        <Link href="/serve">Who we serve</Link>
                     </li>
-                    <li className={router.pathname == "/contact" ? "active" : ""}>
-                        <Link href="/contact">Contact us</Link>
+                    <li className={router.pathname == "/offer" ? "active" : ""}>
+                        <Link href="/offer">What we offer</Link>
+                    </li>
+                    <li className={router.pathname == "/introduction" ? "active" : ""}>
+                        <Link href="/introduction">Why Visecare</Link>
                     </li>
                 </ul>
                 <ul className='left-nav'>
                     <li className={router.pathname == "/login" ? "active" : ""}>
-                        <Link href="/login">Log in</Link>
+                        <Link href="/login">Member Poartal</Link>
                     </li>
                     <li className={router.pathname == "/signup" ? "active" : ""}>
                         <Link href="/signup">Sign up</Link>
